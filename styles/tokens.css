@@ -1,0 +1,33 @@
+:root {
+   --primary-font-family: "Open Sans", serif;
+   --secondary-font-family: "Roboto", serif;
+   --color-white: #fff;
+   --color-red-500: #c52d2f;
+   --color-red-600: #c21316;
+   --color-yellow-300: #ffc439;
+   --color-yellow-400: #faa356;
+   --color-yellow-500: #d57018;
+   --color-brown-400: #2d2013;
+   --color-brown-500: #2d2013;
+   --color-brown-600: #23180d;
+   --color-blue-400: #5b69bc;
+   --color-blue-500: #03a9f4;
+   --color-blue-600: #009cde;
+   --color-blue-700: #1877f2;
+   --color-blue-800: #003087;
+   --border-radius: 4px;
+   --font-size-1: 14px;
+   --font-size-2: 16px;
+   --font-size-3: 18px;
+   --font-size-4: 20px;
+   --font-size-5: 24px;
+   --font-size-6: 36px;
+   --spacing-0: 0px;
+   --spacing-1: 5px;
+   --spacing-2: 10px;
+   --spacing-3: 15px;
+   --spacing-4: 20px;
+   --spacing-5: 25px;
+   --spacing-6: 35px;
+   --spacing-7: 40px;
+}

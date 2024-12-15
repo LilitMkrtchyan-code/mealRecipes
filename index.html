@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/tokens.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Meal Recipes</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="root-container">
+          <div class="header-content">
+            <div class="header-logo">
+              <a href="index.html">
+                <img
+                  src="	https://www.themealdb.com/images/logo-small.png"
+                  alt="logo"
+                />
+              </a>
+            </div>
+            <div class="header-navbar">
+              <ul class="navbar">
+                <li>
+                  <a href="index.html" class="link active">Home</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="intro-section">
+        <div class="root-container">
+          <div class="content-container">
+            <div class="main-content">
+              <div class="main-content-img">
+                <img src="https://www.themealdb.com/images/meal-icon.png" alt="meal-icon" class="meal-icon">
+              </div>
+              <div class="text-content center">
+                <h1 class="text-content-title">Welcome to TheMealDB</h1>
+                <div>Welcome to TheMealDB: An open, crowd-sourced database of Recipes from around the world.</div>
+                <div>We also offer a free recipe API for anyone wanting to use it, with additional features for subscribers.</div>
+                <a href="https://www.paypal.com/checkoutnow?atomic-event-state=eyJkb21haW4iOiJzZGtfcGF5cGFsX3Y1IiwiZXZlbnRzIjpbXSwiaW50ZW50IjoiY2xpY2tfcGF5bWVudF9idXR0b24iLCJpbnRlbnRUeXBlIjoiY2xpY2siLCJpbnRlcmFjdGlvblN0YXJ0VGltZSI6MTk4NzAxLjcwMDAwMDAwMjk4LCJ0aW1lU3RhbXAiOjE5ODcwMiwidGltZU9yaWdpbiI6MTczNDExOTM4NDE2NS41LCJ0YXNrIjoic2VsZWN0X29uZV90aW1lX2NoZWNrb3V0IiwiZmxvdyI6Im9uZS10aW1lLWNoZWNrb3V0IiwidWlTdGF0ZSI6IndhaXRpbmciLCJwYXRoIjoiL3NtYXJ0L2J1dHRvbnMiLCJ2aWV3TmFtZSI6InBheXBhbC1zZGsifQ%3D%3D&sessionID=uid_5b90ae21ba_mtk6ndk6ndq&buttonSessionID=uid_48fe0ae9bc_mtk6ndk6ndq&stickinessID=uid_1fa05c5386_mtg6mdk6mta&smokeHash=&sign_out_user=false&fundingSource=paypal&buyerCountry=AM&locale.x=ru_RU&commit=true&client-metadata-id=uid_5b90ae21ba_mtk6ndk6ndq&clientID=AfHEVYLvvBE2km3eTSHJwF2A6W2YN3CZE--80QyFC7m92Nob4rcZlpzLj-hfcVQGEyBwQombwraLOaEb&env=production&sdkMeta=eyJ1cmwiOiJodHRwczovL3d3dy5wYXlwYWwuY29tL3Nkay9qcz9jbGllbnQtaWQ9QWZIRVZZTHZ2QkUya20zZVRTSEp3RjJBNlcyWU4zQ1pFLS04MFF5RkM3bTkyTm9iNHJjWmxwekxqLWhmY1ZRR0V5QndRb21id3JhTE9hRWImdmF1bHQ9dHJ1ZSZpbnRlbnQ9c3Vic2NyaXB0aW9uIiwiYXR0cnMiOnsiZGF0YS1zZGstaW50ZWdyYXRpb24tc291cmNlIjoiYnV0dG9uLWZhY3RvcnkiLCJkYXRhLXVpZCI6InVpZF9tamhuYmR2dGpxc2VnaHppZXVvZWFidGh6anJsYmcifX0&country.x=RU&xcomponent=1&version=5.0.465&token=67473279K0417781N" class="payment-link"><span class="pay">Pay</span><span class="pal">Pal</span></a>
+                <div>Click button above to upgrade free Recipe API to premium.</div>
+                <div>$3 month and cancel anytime. Currently 54 supporters.</div>
+              </div>
+              <div class="main-content-img">
+                <img src="https://www.themealdb.com/images/meal-icon.png" alt="meal-icon">
+              </div>
+            </div>
+          </div>
+          <div class="meals-container center" id="meals-container">
+            <h3 class="meals-title">Latest Meals</h3>
+            <div class="meals-list" id="meals-list">
+          </div>
+        </div>
+      </section>
+      <footer class="footer" id="footer">
+        <div class="root-container">
+          <div class="footer-container">
+            <div class="footer-branding">
+              <div class="copyright-info">© <span id="current-year"></span> TheMealDB Proudly built in the UK</div>
+              <img
+                src="https://www.themealdb.com/images/icons/flags/big/16/gb.png"
+                class="flag-icon"
+              />
+            </div>
+            <div class="social">
+              <a href="https://www.facebook.com/TheDataDB/" class="social-link facebook">
+                <img
+                  src="images/facebook.png"
+                  alt="facebook"
+                  class="social-icon"
+                />
+              </a>
+              <a href="https://twitter.com/TheAudioDB" class="social-link twitter">
+                <img
+                  src="images/twitter.png"
+                  alt="twitter"
+                  class="social-icon"
+                />
+              </a>
+              <a href="https://discord.com/invite/pFvgaXV" class="social-link discord">
+                <img
+                  src="images/discord.png"
+                  alt="twitter"
+                  class="social-icon"
+                />
+              </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="utils/script.js"></script>
+    <script type="module" src="scripts/meal-list.js"></script>
+  </body>
+</html>
